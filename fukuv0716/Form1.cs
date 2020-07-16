@@ -34,5 +34,33 @@ namespace fukuv0716
             
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "2";
+            textBox2.Text = "0";
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "2";
+            textBox2.Text = "0";
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "0";
+            textBox2.Text = "-2";
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "-2";
+            textBox2.Text = "-2";
+
+        }
     }
 }
