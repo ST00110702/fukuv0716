@@ -31,7 +31,7 @@ namespace fukuv0716
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            label1.Text = int Parse(textBox1.Text)+textBox2.Text;
+            
 
         }
     }
