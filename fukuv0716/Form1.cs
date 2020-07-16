@@ -19,14 +19,14 @@ namespace fukuv0716
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            label1.Text = textBox1.Text + textBox2.Text;
+           
 
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-          
-            
+            label1.Left += int.Parse(textBox1.Text);
+            label1.Left += int.Parse(textBox2.Text);
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
